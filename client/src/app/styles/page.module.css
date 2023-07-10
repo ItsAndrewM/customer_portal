@@ -5,6 +5,41 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.signInWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px
+}
+
+.signUpContainer {
+  width: 442px;
+  height: 400px;
+  background: #A8A8A8;
+  z-index: -999;
+}
+
+.image {
+  width: 442px;
+  height: 400px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoWrapper {
+  width: 317px;
+  height: 148.16px;
+  position: relative;
 }
 
 .description {
